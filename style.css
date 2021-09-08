@@ -1,12 +1,12 @@
 html body{
     font-family: 'Chilanka', cursive;
-    overflow: auto;
+    margin: 0px;
 }
 
 
 /* Nav-Bar */
 .navbar{
-    border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 20px;
 }
 #my-name{
     font-size: 1.7rem;
@@ -23,10 +23,10 @@ html body{
 }
 @media only screen and (max-width: 600px) {
    #front-line{
-       font-size: 1.0rem;
+       font-size: 0.7rem;
    }
    #my-name{
-       font-size: 1.5rem;
+       font-size: 1.0rem;
    }
    .custom-nav{
        font-size: 1.2rem;
