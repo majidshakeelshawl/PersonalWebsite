@@ -25,6 +25,12 @@ html body{
    #front-line{
        font-size: 1.0rem;
    }
+   #my-name{
+       font-size: 1.5rem;
+   }
+   .custom-nav{
+       font-size: 1.2rem;
+   }
   }
 
 /* Footer */
