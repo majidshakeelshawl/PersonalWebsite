@@ -1,9 +1,16 @@
 html body{
     font-family: 'Chilanka', cursive;
+    overflow: auto;
 }
 
 
 /* Nav-Bar */
+.navbar{
+    border-bottom-right-radius: 30px;
+}
+#my-name{
+    font-size: 1.7rem;
+}
 .custom-nav{
     padding: 0px 20px 0px 4px;
     font-family: 'Patrick Hand', cursive;
@@ -11,8 +18,8 @@ html body{
 }
 
 #front-line{
-    font-family: 'Zilla Slab Highlight', cursive;
-    font-size: 0.9rem;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 1.3rem;
 }
 
 /* Footer */
