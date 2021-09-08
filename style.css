@@ -31,6 +31,8 @@ html body{
    .custom-nav{
        font-size: 1.2rem;
    }
+ 
+ 
   }
   @media only screen and (max-width: 350px) {
     #front-line{
@@ -41,7 +43,9 @@ html body{
     }
     .custom-nav{
         font-size: 0.8rem;
-    }
+    }    
+  
+   
    }
 /* Main Content */
 .top-custom-container{
