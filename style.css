@@ -21,6 +21,11 @@ html body{
     font-family: 'Cabin Sketch', cursive;
     font-size: 1.3rem;
 }
+@media only screen and (max-width: 600px) {
+   #front-line{
+       font-size: 1.0rem;
+   }
+  }
 
 /* Footer */
 #footer{
