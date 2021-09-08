@@ -1,7 +1,21 @@
-.custom-nav{
-    padding: 0px 20px 0px 4px;
+html body{
+    font-family: 'Chilanka', cursive;
 }
 
+
+/* Nav-Bar */
+.custom-nav{
+    padding: 0px 20px 0px 4px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.4rem;
+}
+
+#front-line{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 0.9rem;
+}
+
+/* Footer */
 #footer{
    text-align: center;
 }
