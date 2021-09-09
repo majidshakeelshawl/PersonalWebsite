@@ -23,34 +23,65 @@ html body{
 /* FOR MOBO DEVICE SCREEN */
 @media only screen and (max-width: 600px) {
    #front-line{
-       font-size: 1.0rem;
+       font-size: 1.2rem;
    }
    #my-name{
-       font-size: 1.1rem;
+       font-size: 1.4rem;
    }
    .custom-nav{
        font-size: 1.2rem;
    }
- 
- 
+   .top-custom-container h1{
+       font-size: 1.9rem;
+   }
+ .top-custom-container h2{
+     font-size: 1.5rem;
+ }
+ #tag-line{
+     font-size: 2.7rem;
+     text-align: right;
+     padding-top: 250px;
+ }
   }
-  @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 450px) {
     #front-line{
-        font-size: 0.6rem;
+        font-size: 0.9rem;
     }
     #my-name{
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
     .custom-nav{
         font-size: 0.8rem;
     }    
-  
-   
-   }
+  #tag-line{
+      font-size: 1.9rem;
+      padding-top: 200px;
+  }
+}
 /* Main Content */
 .top-custom-container{
     text-align: center;
     padding: 50px 0px 0px 0px;
+    background-image: url('images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg');
+    background-size:cover;
+    
+}
+.top-custom-container h1{
+    color: #DDFFBC;
+}
+.top-custom-container h2{
+    color: #F5C0C0;
+}
+.bottom-heading{
+    margin: 15% 0% 0% 0%;
+    padding-bottom: 15%;
+    overflow: auto;
+}
+.bottom-heading h3{
+    font-size: 3rem;
+    text-align: end;
+    padding: 0px 65px 25px 0px;
+    color: #FFB367;
 }
 /* Footer */
 #footer{
@@ -59,7 +90,5 @@ html body{
    position:absolute;
    width: 100%;
    bottom:5px;
-
    font-size: 0.9rem;
-   
 }
