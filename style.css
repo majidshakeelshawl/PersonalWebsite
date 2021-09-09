@@ -1,6 +1,8 @@
 html body{
     font-family: 'Chilanka', cursive;
     margin: 0px;
+    background-color: #161616;
+    color: #FFB367;
 }
 
 /* Nav-Bar */
@@ -80,8 +82,9 @@ html body{
 .top-custom-container{
     text-align: center;
     padding: 50px 0px 0px 0px;
-    background-image: url('images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg');
+    background-image: url('images/allec-gomes-fuooELn4jyA-unsplash.jpg');
     background-size:cover;
+    border-bottom-right-radius: 90px;
     
 }
 .top-custom-container h1{
@@ -101,6 +104,8 @@ html body{
     padding: 0px 65px 25px 0px;
     color: #FFB367;
 }
+
+
 /* Footer */
 #footer{
     /* Put the footer at bottom */
