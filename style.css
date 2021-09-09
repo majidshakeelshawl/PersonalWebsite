@@ -5,6 +5,20 @@ html body{
     color: #7E8A97;
 }
 
+.line-links{
+    text-align: center;
+    width: 100%;
+    padding: 0px 25%;
+}
+.link-container{
+    width: 100%;
+    text-align: center;
+}
+.icons{
+    margin: 10px;
+    height: 45px;
+    width: 50px;
+}
 /* Nav-Bar */
 .navbar{
     
@@ -51,7 +65,7 @@ html body{
  }
  #tag-line{
      font-size: 1.7rem;
-     padding-top: 110px;
+     padding-top: 30px;
  }
   }
 
@@ -76,7 +90,7 @@ html body{
     }
   #tag-line{
       font-size: 1.6rem;
-      padding-top: 90px;
+      padding-top: 30px;
   }
 }
  /* For Z-Fold */
@@ -101,14 +115,16 @@ html body{
     }
   #tag-line{
       font-size: 1.1rem;
-      padding-top: 70px;
+      padding-top: 20px;
   }
 }
-/* For Width and Height Both */
+
+
+/* For Width and Height Both
 @media screen and (max-width: 995px), 
        screen and (max-height: 700px) {
   
-}
+} */
 
 
 /* Main Content */
@@ -135,6 +151,15 @@ html body{
     color: #B8DFD8;
 }
 
+/* Middle */
+.middle-custom-container{
+    
+}
+
+/* .middle-custom-container hr{
+    
+    
+} */
 
 /* Footer */
 #footer{
