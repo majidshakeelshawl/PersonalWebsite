@@ -91,6 +91,12 @@ html body{
       font-size: 1.6rem;
       padding-top: 30px;
   }
+  .about-me-tag{
+      padding-top: 10px;
+  }
+  .about-me-tag h1{
+      font-size: 1.8rem;
+  }
 }
  /* For Z-Fold */
 @media only screen and (max-width: 350px) {
@@ -117,6 +123,13 @@ html body{
   .icons{
       height: 40px;
       width: 35px;
+  }
+  .about-me-tag {
+      padding-top: 20px;
+      
+  }
+  .about-me-tag h1{
+      font-size: 1.3rem;
   }
 }
 
@@ -178,11 +191,11 @@ html body{
 }
 
 /* About Me */
-#about-me-tag{
+.about-me-tag{
     text-align: center;
     width: 100%;
     margin-top: 40px;
 }
-#about-me-tag-text{
+.about-me-tag-text{
     font-size: 2.5rem;
 }
