@@ -70,7 +70,6 @@ html body{
     .top-custom-container h2{
         font-size: 1.0rem;
         color: #75B79E;
-        text-align: left;
         
     }
   #tag-line{
@@ -91,7 +90,7 @@ html body{
     color: #DDFFBC;
 }
 .top-custom-container h2{
-    color: #75B79E;
+    color: #DDFFBC;
 }
 .bottom-heading{
     margin: 15% 0% 0% 0%;
