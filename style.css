@@ -91,13 +91,8 @@ html body{
       font-size: 1.6rem;
       padding-top: 30px;
   }
-  .about-me-tag{
-      margin-bottom: 8%;
-  }
+ 
 
-  .about-me-tag h1{
-      font-size: 1.8rem;
-  }
 }
  /* For Z-Fold */
 @media only screen and (max-width: 350px) {
@@ -189,6 +184,7 @@ html body{
    width: 100%;
    bottom:5px;
    font-size: 0.9rem;
+   margin-top: 5%;
 }
 
 /* About Me */
