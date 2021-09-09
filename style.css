@@ -1,19 +1,22 @@
 html body{
     font-family: 'Chilanka', cursive;
     margin: 0px;
-    background-color: #161616;
+    background-color:#000000;
     color: #FFB367;
 }
 
 /* Nav-Bar */
 .navbar{
-    border-bottom-right-radius: 20px;
+    
+    
 }
 .navbar-custom{
-    background-color: #222831;
+    
+    
 }
 #my-name{
     font-size: 1.7rem;
+    color:#DDFFBC;
 }
 .custom-nav{
     padding: 0px 20px 0px 4px;
@@ -25,6 +28,7 @@ html body{
 #front-line{
     font-family: 'Cabin Sketch', cursive;
     font-size: 1.3rem;
+    color:#F6F6D9;
 }
 /* FOR MOBO DEVICE SCREEN */
 /* For Lenovo K5 Plus */
@@ -53,7 +57,7 @@ html body{
   }
 
   /* For My NOKIA 5 */
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 420px) {
     #front-line{
         font-size: 0.9rem;
     }
@@ -67,13 +71,40 @@ html body{
         font-size: 1.6rem;
         
     }
-    .top-custom-container h2{
-        font-size: 1.0rem;
-        color: #75B79E;
-        
+    .top-custom-container h2 {
+        font-size: 1.2rem;
+
     }
   #tag-line{
       font-size: 1.3rem;
+      padding-top: 90px;
+      text-align: center;
+      width: 100%;
+      
+  }
+}
+ /* For Z-Fold */
+@media only screen and (max-width: 350px) {
+    #front-line{
+        font-size: 0.7rem;
+    }
+    #my-name{
+        font-size: 0.8rem;
+    }
+    .custom-nav{
+        font-size: 0.8rem;
+    }    
+    .top-custom-container h1{
+        font-size: 1.4rem;
+        
+    }
+    .top-custom-container h2{
+        font-size: 0.9rem;
+        
+        
+    }
+  #tag-line{
+      font-size: 1.1rem;
       padding-top: 70px;
   }
 }
@@ -83,7 +114,7 @@ html body{
     padding: 50px 0px 0px 0px;
     background-image: url('images/allec-gomes-fuooELn4jyA-unsplash.jpg');
     background-size:cover;
-    border-bottom-right-radius: 90px;
+    
     
 }
 .top-custom-container h1{
