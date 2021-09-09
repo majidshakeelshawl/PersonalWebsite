@@ -25,6 +25,7 @@ html body{
     font-size: 1.3rem;
 }
 /* FOR MOBO DEVICE SCREEN */
+/* For Lenovo K5 Plus */
 @media only screen and (max-width: 600px) {
    #front-line{
        font-size: 1.2rem;
@@ -38,6 +39,7 @@ html body{
    .top-custom-container h1{
        font-size: 1.9rem;
    }
+   /* this will (h2) appear at center afte width > 400px because by default container of bootstrap puts div in center(children) */
  .top-custom-container h2{
      font-size: 1.5rem;
  }
@@ -47,6 +49,8 @@ html body{
      padding-top: 110px;
  }
   }
+
+  /* For My NOKIA 5 */
   @media only screen and (max-width: 400px) {
     #front-line{
         font-size: 0.9rem;
