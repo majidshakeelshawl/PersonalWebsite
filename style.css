@@ -94,6 +94,10 @@ html body{
   .about-me-tag h1{
       font-size: 2.4rem;
   }
+  .icons{
+    height: 40px;
+    width: 41px;
+}
 
 }
  /* For Z-Fold */
