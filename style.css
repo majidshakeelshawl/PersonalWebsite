@@ -43,113 +43,6 @@ html body{
     font-size: 1.3rem;
     color:#B8DFD8;
 }
-/* FOR MOBO DEVICE SCREEN */
-/* For Lenovo K5 Plus */
-@media only screen and (max-width: 600px) {
-   #front-line{
-       font-size: 1.2rem;
-   }
-   #my-name{
-       font-size: 1.4rem;
-   }
-   .custom-nav{
-       font-size: 1.2rem;
-   }
-   .top-custom-container h1{
-       font-size: 1.9rem;
-   }
-   /* this will (h2) appear at center afte width > 400px because by default container of bootstrap puts div in center(children) */
- .top-custom-container h2{
-     font-size: 1.5rem;
- }
- #tag-line{
-     font-size: 1.7rem;
-     padding-top: 30px;
- }
-  }
-
-  /* For My NOKIA 5 */
-  @media only screen and (max-width: 420px) {
-    #front-line{
-        font-size: 0.9rem;
-    }
-    #my-name{
-        font-size: 1.1rem;
-    }
-    .custom-nav{
-        font-size: 1.1rem;
-    }    
-    .top-custom-container h1{
-        font-size: 1.6rem;
-        
-    }
-    .top-custom-container h2 {
-        font-size: 1.2rem;
-
-    }
-  #tag-line{
-      font-size: 1.6rem;
-      padding-top: 30px;
-  }
-  .about-me-tag h1{
-      font-size: 2.5rem;
-  }
-  .icons{
-    height: 40px;
-    width: 41px;
-}
-.certificate-box{
-    
-}
-.certificate-box-items{
-    margin: 30px;
-    width: 40%;
-    height: 25%;
-}
-.certificate-box-images{
-    width: 45px;
-    height: 50px;
-    margin: 1px 0px 35px 0.0px;
-}
-.certificate-box-text{
-    font-size: 0.9rem;
-}
-}
- /* For Z-Fold */
-@media only screen and (max-width: 350px) {
-    #front-line{
-        font-size: 0.7rem;
-    }
-    #my-name{
-        font-size: 0.8rem;
-    }
-    .custom-nav{
-        font-size: 0.8rem;
-    }    
-    .top-custom-container h1{
-        font-size: 1.4rem;
-        
-    }
-    .top-custom-container h2{
-        font-size: 0.9rem;
-    }
-  #tag-line{
-      font-size: 1.1rem;
-      padding-top: 20px;
-  }
-  .icons{
-      height: 40px;
-      width: 35px;
-  }
-  .about-me-tag {
-      padding-top: 20px;
-      
-  }
-  .about-me-tag h1{
-      font-size: 1.3rem;
-  }
-}
-
 
 /* For Width and Height Both
 @media screen and (max-width: 995px), 
@@ -191,9 +84,9 @@ html body{
     text-align: center;
     margin-top: 2%;
 }
-.certificate-box{
+/* .certificate-box{
     
-}
+} */
 .certificate-box-items{
     margin: 30px;
     width: 40%;
@@ -229,3 +122,127 @@ html body{
 .about-me-tag-text{
     font-size: 2.5rem;
 }
+
+
+
+/*                                                             MEDIA QUERIES */
+
+/* FOR MOBO DEVICE SCREEN */
+/* For Lenovo K5 Plus */
+@media only screen and (max-width: 600px) {
+    #front-line{
+        font-size: 1.2rem;
+    }
+    #my-name{
+        font-size: 1.4rem;
+    }
+    .custom-nav{
+        font-size: 1.2rem;
+    }
+    .top-custom-container h1{
+        font-size: 1.9rem;
+    }
+    /* this will (h2) appear at center afte width > 400px because by default container of bootstrap puts div in center(children) */
+  .top-custom-container h2{
+      font-size: 1.5rem;
+  }
+  #tag-line{
+      font-size: 1.7rem;
+      padding-top: 30px;
+  }
+   }
+ 
+   /* For My NOKIA 5 */
+   @media only screen and (max-width: 420px) {
+     #front-line{
+         font-size: 0.9rem;
+     }
+     #my-name{
+         font-size: 1.1rem;
+     }
+     .custom-nav{
+         font-size: 1.1rem;
+     }    
+     .top-custom-container h1{
+         font-size: 1.6rem;
+         
+     }
+     .top-custom-container h2 {
+         font-size: 1.2rem;
+ 
+     }
+   #tag-line{
+       font-size: 1.6rem;
+       padding-top: 30px;
+   }
+   .about-me-tag h1{
+       font-size: 2.5rem;
+   }
+   .icons{
+     height: 40px;
+     width: 41px;
+           }
+ /* .certificate-box{
+     
+ } */
+ .certificate-box-text{
+     font-size: 0.8rem;
+ }
+ .certificate-box-items{
+     margin: 10px;
+     width: 30%;
+     height: 45%;
+ }
+ .certificate-box-images{
+     width: 40px;
+     height: 30px;
+     margin: 1px 0px 20px 0.0px;
+ }
+ }
+  /* For Z-Fold */
+ @media only screen and (max-width: 350px) {
+     #front-line{
+         font-size: 0.7rem;
+     }
+     #my-name{
+         font-size: 0.8rem;
+     }
+     .custom-nav{
+         font-size: 0.8rem;
+     }    
+     .top-custom-container h1{
+         font-size: 1.4rem;
+         
+     }
+     .top-custom-container h2{
+         font-size: 0.9rem;
+     }
+   #tag-line{
+       font-size: 1.1rem;
+       padding-top: 20px;
+   }
+   .icons{
+       height: 40px;
+       width: 35px;
+   }
+   .about-me-tag {
+       padding-top: 20px;
+       
+   }
+   .about-me-tag h1{
+       font-size: 1.3rem;
+   }
+   .certificate-box-text{
+     font-size: 0.9rem;
+ }
+ .certificate-box-items{
+     margin: 10px;
+     width: 90%;
+     height: 40%;
+ }
+ .certificate-box-images{
+     width: 45px;
+     height: 35px;
+     margin: 1px 0px 10px 0.0px;
+ }
+ }
