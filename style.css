@@ -10,6 +10,7 @@ html body{
     width: 100%;
     padding: 0px 25%;
 }
+
 .link-container{
     width: 100%;
     text-align: center;
@@ -71,7 +72,7 @@ html body{
 }
 .bottom-heading h3{
     font-size: 3rem;    
-    padding: 0px 0px 25px 0px;
+    padding: 0px 0px 6px 0px;
     color: #B8DFD8;
 }
 
@@ -97,10 +98,9 @@ html body{
     height: 50px;
     margin: 1px 0px 35px 0.0px;
 }
-/* .middle-custom-container hr{
-    
-    
-} */
+.middle-custom-container hr{
+    margin: 3px 0px;
+}
 
 /* Footer */
 #footer{
@@ -122,8 +122,6 @@ html body{
 .about-me-tag-text{
     font-size: 2.5rem;
 }
-
-
 
 /*                                                             MEDIA QUERIES */
 
@@ -151,18 +149,18 @@ html body{
       padding-top: 30px;
   }
   .certificate-box-text{
-    font-size: 1.1rem;
-}
-.certificate-box-items{
-    margin: 10px;
-    width: 90%;
-    height: 45%;
-}
-.certificate-box-images{
-    width: 45px;
-    height: 31px;
-    margin: 8px 0px 20px 0.0px;
-}
+     font-size: 1.1rem;
+ }
+ .certificate-box-items{
+     margin: 10px;
+     width: 90%;
+     height: 45%;
+ }
+ .certificate-box-images{
+     width: 45px;
+     height: 31px;
+     margin: 8px 0px 20px 0.0px;
+ }
    }
  
    /* For My NOKIA 5 */
