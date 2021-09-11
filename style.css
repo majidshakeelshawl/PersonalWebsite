@@ -150,6 +150,19 @@ html body{
       font-size: 1.7rem;
       padding-top: 30px;
   }
+  .certificate-box-text{
+    font-size: 1.1rem;
+}
+.certificate-box-items{
+    margin: 10px;
+    width: 90%;
+    height: 45%;
+}
+.certificate-box-images{
+    width: 45px;
+    height: 31px;
+    margin: 8px 0px 20px 0.0px;
+}
    }
  
    /* For My NOKIA 5 */
