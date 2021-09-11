@@ -98,7 +98,22 @@ html body{
     height: 40px;
     width: 41px;
 }
-
+.certificate-box{
+    
+}
+.certificate-box-items{
+    margin: 30px;
+    width: 40%;
+    height: 25%;
+}
+.certificate-box-images{
+    width: 45px;
+    height: 50px;
+    margin: 1px 0px 35px 0.0px;
+}
+.certificate-box-text{
+    font-size: 0.9rem;
+}
 }
  /* For Z-Fold */
 @media only screen and (max-width: 350px) {
