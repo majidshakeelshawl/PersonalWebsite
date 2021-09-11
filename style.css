@@ -179,6 +179,11 @@ html body{
 .certificate-box-items{
     margin: 20px;
 }
+.certificate-box-images{
+    width: 30px;
+    height: 30px;
+    margin: 1px 6px 1px 0.4px;
+}
 /* .middle-custom-container hr{
     
     
