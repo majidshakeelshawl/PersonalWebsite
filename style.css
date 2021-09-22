@@ -146,7 +146,6 @@ html body{
   }
   #tag-line{
       font-size: 1.7rem;
-      padding-top: 30px;
   }
   .certificate-box-text{
      font-size: 1.1rem;
@@ -183,8 +182,7 @@ html body{
  
      }
    #tag-line{
-       font-size: 1.6rem;
-       padding-top: 30px;
+       font-size: 1.6rem;       
    }
    .about-me-tag h1{
        font-size: 2.5rem;
@@ -230,7 +228,6 @@ html body{
      }
    #tag-line{
        font-size: 1.1rem;
-       padding-top: 20px;
    }
    .icons{
        height: 40px;
