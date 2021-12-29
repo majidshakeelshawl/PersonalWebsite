@@ -44,14 +44,6 @@ html body{
     font-size: 1.3rem;
     color:#B8DFD8;
 }
-
-/* For Width and Height Both
-@media screen and (max-width: 995px), 
-       screen and (max-height: 700px) {
-  
-} */
-
-
 /* Main Content */
 .top-custom-container{
     text-align: center;
@@ -128,7 +120,14 @@ html body{
 /*                                                             MEDIA QUERIES */
 
 /* FOR MOBO DEVICE SCREEN */
-/* For Lenovo K5 Plus */
+@media only screen and (max-width:681px){
+    .certificate-box-items{
+        margin: 10px;
+        width: 90%;
+        height: 45%;
+    }
+    
+}
 @media only screen and (max-width:767px){
     .certificate-box{
         display: inline;
