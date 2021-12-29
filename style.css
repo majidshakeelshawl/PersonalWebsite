@@ -130,9 +130,6 @@ html body{
 /* FOR MOBO DEVICE SCREEN */
 /* For Lenovo K5 Plus */
 @media only screen and (max-width:767px){
-    #tag-line{
-        font-size: 1.7rem;
-    }
     .certificate-box{
         display: inline;
     }
