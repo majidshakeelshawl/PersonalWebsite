@@ -19,6 +19,11 @@ html body{
     margin: 10px;
     height: 50px;
     width: 53px;
+    transition: 2s linear;
+}
+.icons:hover{
+    height: 70px;
+    width: 70px;
 }
 /* Nav-Bar */
 .navbar{
@@ -104,6 +109,10 @@ html body{
    font-size: 0.9rem;
    margin-top: 5%;
 }
+button:hover{
+    border-radius: 30px;
+    transition: border-radius,3s;
+}
 
 /* About Me */
 .about-me-tag{
@@ -118,10 +127,6 @@ html body{
     padding-top:2%;
 }
 
-button:hover{
-    border-radius: 30px;
-    transition: border-radius,3s;
-}
 
 /*                                                             MEDIA QUERIES */
 
