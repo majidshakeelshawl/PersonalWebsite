@@ -117,6 +117,12 @@ html body{
 #footer-about-me{
     padding-top:2%;
 }
+
+button:hover{
+    border-radius: 30px;
+    transition: border-radius,3s;
+}
+
 /*                                                             MEDIA QUERIES */
 
 /* FOR MOBO DEVICE SCREEN */
