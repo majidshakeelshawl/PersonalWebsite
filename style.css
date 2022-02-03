@@ -83,7 +83,8 @@ html body{
     margin-top: 2%;
 }
 /* .certificate-box{
-    
+ display: flex;
+ flex-direction: colum
 } */
 .certificate-box-items{
     margin: 30px;
@@ -131,11 +132,21 @@ button:hover{
 /*                                                             MEDIA QUERIES */
 
 /* FOR MOBO DEVICE SCREEN */
-@media only screen and (max-width:681px){
+@media screen and (min-width :682px){
+    .certificate-box-space{
+        display: inline;
+    }
+}
+@media only screen and (max-width :681px){
     .certificate-box-items{
         margin: 10px;
         width: 90%;
         height: 45%;
+    }
+    .certificate-box{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
     }
     
 }
